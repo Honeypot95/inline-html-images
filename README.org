@@ -1,0 +1,10 @@
+* Inline HTML images
+Encode html images to base64, to save a http network request.
+
+* Motivation
+If you use =<style>=, and =<script>= tags to embed CSS and JavaScript into HTML in order to save a network
+request, you may want to do the same with images.
+
+This script helps do this automatically.
+
+HTML supports base64 as a valid image encoding, which allows embedding images into the HTML source.
